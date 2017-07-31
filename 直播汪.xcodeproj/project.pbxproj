@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E169DD41F2B41D500AAE5FD /* ALinNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E169DD11F2B41D500AAE5FD /* ALinNetworkTool.m */; };
+		4E169DD51F2B41D500AAE5FD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E169DD31F2B41D500AAE5FD /* Reachability.m */; };
 		4EA75F401F14AD090020F6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA75F3F1F14AD090020F6E7 /* main.m */; };
 		4EA75F431F14AD090020F6E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA75F421F14AD090020F6E7 /* AppDelegate.m */; };
 		4EA75F461F14AD090020F6E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA75F451F14AD090020F6E7 /* ViewController.m */; };
@@ -37,7 +39,11 @@
 
 /* Begin PBXFileReference section */
 		41A45BC2590F633B0C4A3BD8 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
-		4EA75F3B1F14AD090020F6E7 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E169DD01F2B41D500AAE5FD /* ALinNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALinNetworkTool.h; sourceTree = "<group>"; };
+		4E169DD11F2B41D500AAE5FD /* ALinNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALinNetworkTool.m; sourceTree = "<group>"; };
+		4E169DD21F2B41D500AAE5FD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4E169DD31F2B41D500AAE5FD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4EA75F3B1F14AD090020F6E7 /* 直播汪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播汪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA75F3F1F14AD090020F6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EA75F411F14AD090020F6E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EA75F421F14AD090020F6E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +53,10 @@
 		4EA75F4A1F14AD090020F6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EA75F4D1F14AD090020F6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EA75F4F1F14AD090020F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EA75F541F14AD0A0020F6E7 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA75F541F14AD0A0020F6E7 /* 直播汪Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播汪Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA75F581F14AD0A0020F6E7 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		4EA75F5A1F14AD0A0020F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EA75F5F1F14AD0A0020F6E7 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA75F5F1F14AD0A0020F6E7 /* 直播汪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播汪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA75F631F14AD0A0020F6E7 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		4EA75F651F14AD0A0020F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4E96DBCB4DDB014CF251B2 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +97,177 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4E169DBB1F2B417B00AAE5FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E169DBC1F2B417B00AAE5FD /* Home */,
+				4E169DC01F2B417B00AAE5FD /* Main */,
+				4E169DC41F2B417B00AAE5FD /* NetWork */,
+				4E169DC81F2B417B00AAE5FD /* ShowTime */,
+				4E169DCC1F2B417B00AAE5FD /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E169DBC1F2B417B00AAE5FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E169DBD1F2B417B00AAE5FD /* Controlller */,
+				4E169DBE1F2B417B00AAE5FD /* model */,
+				4E169DBF1F2B417B00AAE5FD /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E169DBD1F2B417B00AAE5FD /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		4E169DBE1F2B417B00AAE5FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E169DBF1F2B417B00AAE5FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E169DC01F2B417B00AAE5FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E169DC11F2B417B00AAE5FD /* Controlller */,
+				4E169DC21F2B417B00AAE5FD /* model */,
+				4E169DC31F2B417B00AAE5FD /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4E169DC11F2B417B00AAE5FD /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		4E169DC21F2B417B00AAE5FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E169DC31F2B417B00AAE5FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E169DC41F2B417B00AAE5FD /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				4E169DD01F2B41D500AAE5FD /* ALinNetworkTool.h */,
+				4E169DD11F2B41D500AAE5FD /* ALinNetworkTool.m */,
+				4E169DD21F2B41D500AAE5FD /* Reachability.h */,
+				4E169DD31F2B41D500AAE5FD /* Reachability.m */,
+				4E169DC51F2B417B00AAE5FD /* Controlller */,
+				4E169DC61F2B417B00AAE5FD /* model */,
+				4E169DC71F2B417B00AAE5FD /* View */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		4E169DC51F2B417B00AAE5FD /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		4E169DC61F2B417B00AAE5FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E169DC71F2B417B00AAE5FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E169DC81F2B417B00AAE5FD /* ShowTime */ = {
+			isa = PBXGroup;
+			children = (
+				4E169DC91F2B417B00AAE5FD /* Controlller */,
+				4E169DCA1F2B417B00AAE5FD /* model */,
+				4E169DCB1F2B417B00AAE5FD /* View */,
+			);
+			path = ShowTime;
+			sourceTree = "<group>";
+		};
+		4E169DC91F2B417B00AAE5FD /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		4E169DCA1F2B417B00AAE5FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E169DCB1F2B417B00AAE5FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E169DCC1F2B417B00AAE5FD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4E169DCD1F2B417B00AAE5FD /* Controlller */,
+				4E169DCE1F2B417B00AAE5FD /* model */,
+				4E169DCF1F2B417B00AAE5FD /* View */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4E169DCD1F2B417B00AAE5FD /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		4E169DCE1F2B417B00AAE5FD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E169DCF1F2B417B00AAE5FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4EA75F321F14AD090020F6E7 = {
 			isa = PBXGroup;
 			children = (
@@ -106,9 +283,9 @@
 		4EA75F3C1F14AD090020F6E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EA75F3B1F14AD090020F6E7 /* test.app */,
-				4EA75F541F14AD0A0020F6E7 /* testTests.xctest */,
-				4EA75F5F1F14AD0A0020F6E7 /* testUITests.xctest */,
+				4EA75F3B1F14AD090020F6E7 /* 直播汪.app */,
+				4EA75F541F14AD0A0020F6E7 /* 直播汪Tests.xctest */,
+				4EA75F5F1F14AD0A0020F6E7 /* 直播汪UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,14 +293,7 @@
 		4EA75F3D1F14AD090020F6E7 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				4EA75F411F14AD090020F6E7 /* AppDelegate.h */,
-				4EA75F421F14AD090020F6E7 /* AppDelegate.m */,
-				4EA75F441F14AD090020F6E7 /* ViewController.h */,
-				4EA75F451F14AD090020F6E7 /* ViewController.m */,
-				4EA75F471F14AD090020F6E7 /* Main.storyboard */,
-				4EA75F4A1F14AD090020F6E7 /* Assets.xcassets */,
-				4EA75F4C1F14AD090020F6E7 /* LaunchScreen.storyboard */,
-				4EA75F4F1F14AD090020F6E7 /* Info.plist */,
+				4E169DBB1F2B417B00AAE5FD /* Classes */,
 				4EA75F3E1F14AD090020F6E7 /* Supporting Files */,
 			);
 			path = test;
@@ -132,7 +302,15 @@
 		4EA75F3E1F14AD090020F6E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4EA75F4A1F14AD090020F6E7 /* Assets.xcassets */,
+				4EA75F4F1F14AD090020F6E7 /* Info.plist */,
+				4EA75F441F14AD090020F6E7 /* ViewController.h */,
+				4EA75F451F14AD090020F6E7 /* ViewController.m */,
+				4EA75F471F14AD090020F6E7 /* Main.storyboard */,
+				4EA75F411F14AD090020F6E7 /* AppDelegate.h */,
+				4EA75F421F14AD090020F6E7 /* AppDelegate.m */,
 				4EA75F3F1F14AD090020F6E7 /* main.m */,
+				4EA75F4C1F14AD090020F6E7 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,9 +345,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EA75F3A1F14AD090020F6E7 /* test */ = {
+		4EA75F3A1F14AD090020F6E7 /* 直播汪 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EA75F681F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 4EA75F681F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "直播汪" */;
 			buildPhases = (
 				4DF2C655BBC62C3500E01C58 /* [CP] Check Pods Manifest.lock */,
 				4EA75F371F14AD090020F6E7 /* Sources */,
@@ -182,14 +360,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = "直播汪";
 			productName = test;
-			productReference = 4EA75F3B1F14AD090020F6E7 /* test.app */;
+			productReference = 4EA75F3B1F14AD090020F6E7 /* 直播汪.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4EA75F531F14AD0A0020F6E7 /* testTests */ = {
+		4EA75F531F14AD0A0020F6E7 /* 直播汪Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EA75F6B1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = 4EA75F6B1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "直播汪Tests" */;
 			buildPhases = (
 				4EA75F501F14AD0A0020F6E7 /* Sources */,
 				4EA75F511F14AD0A0020F6E7 /* Frameworks */,
@@ -200,14 +378,14 @@
 			dependencies = (
 				4EA75F561F14AD0A0020F6E7 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = "直播汪Tests";
 			productName = testTests;
-			productReference = 4EA75F541F14AD0A0020F6E7 /* testTests.xctest */;
+			productReference = 4EA75F541F14AD0A0020F6E7 /* 直播汪Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4EA75F5E1F14AD0A0020F6E7 /* testUITests */ = {
+		4EA75F5E1F14AD0A0020F6E7 /* 直播汪UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EA75F6E1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = 4EA75F6E1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "直播汪UITests" */;
 			buildPhases = (
 				4EA75F5B1F14AD0A0020F6E7 /* Sources */,
 				4EA75F5C1F14AD0A0020F6E7 /* Frameworks */,
@@ -218,9 +396,9 @@
 			dependencies = (
 				4EA75F611F14AD0A0020F6E7 /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = "直播汪UITests";
 			productName = testUITests;
-			productReference = 4EA75F5F1F14AD0A0020F6E7 /* testUITests.xctest */;
+			productReference = 4EA75F5F1F14AD0A0020F6E7 /* 直播汪UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -234,6 +412,7 @@
 				TargetAttributes = {
 					4EA75F3A1F14AD090020F6E7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E7W76K8S8B;
 						ProvisioningStyle = Automatic;
 					};
 					4EA75F531F14AD0A0020F6E7 = {
@@ -248,7 +427,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4EA75F361F14AD090020F6E7 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 4EA75F361F14AD090020F6E7 /* Build configuration list for PBXProject "直播汪" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,9 +440,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EA75F3A1F14AD090020F6E7 /* test */,
-				4EA75F531F14AD0A0020F6E7 /* testTests */,
-				4EA75F5E1F14AD0A0020F6E7 /* testUITests */,
+				4EA75F3A1F14AD090020F6E7 /* 直播汪 */,
+				4EA75F531F14AD0A0020F6E7 /* 直播汪Tests */,
+				4EA75F5E1F14AD0A0020F6E7 /* 直播汪UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -348,9 +527,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E169DD41F2B41D500AAE5FD /* ALinNetworkTool.m in Sources */,
 				4EA75F461F14AD090020F6E7 /* ViewController.m in Sources */,
 				4EA75F431F14AD090020F6E7 /* AppDelegate.m in Sources */,
 				4EA75F401F14AD090020F6E7 /* main.m in Sources */,
+				4E169DD51F2B41D500AAE5FD /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,12 +556,12 @@
 /* Begin PBXTargetDependency section */
 		4EA75F561F14AD0A0020F6E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4EA75F3A1F14AD090020F6E7 /* test */;
+			target = 4EA75F3A1F14AD090020F6E7 /* 直播汪 */;
 			targetProxy = 4EA75F551F14AD0A0020F6E7 /* PBXContainerItemProxy */;
 		};
 		4EA75F611F14AD0A0020F6E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4EA75F3A1F14AD090020F6E7 /* test */;
+			target = 4EA75F3A1F14AD090020F6E7 /* 直播汪 */;
 			targetProxy = 4EA75F601F14AD0A0020F6E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -500,10 +681,12 @@
 			baseConfigurationReference = 41A45BC2590F633B0C4A3BD8 /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7W76K8S8B;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.test;
+				PRODUCT_BUNDLE_IDENTIFIER = livedog.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -513,10 +696,12 @@
 			baseConfigurationReference = E92D4947B475065E4F5BA62E /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7W76K8S8B;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.test;
+				PRODUCT_BUNDLE_IDENTIFIER = livedog.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -529,7 +714,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播汪.app/直播汪";
 			};
 			name = Debug;
 		};
@@ -541,7 +726,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播汪.app/直播汪";
 			};
 			name = Release;
 		};
@@ -570,7 +755,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EA75F361F14AD090020F6E7 /* Build configuration list for PBXProject "test" */ = {
+		4EA75F361F14AD090020F6E7 /* Build configuration list for PBXProject "直播汪" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA75F661F14AD0A0020F6E7 /* Debug */,
@@ -579,7 +764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EA75F681F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "test" */ = {
+		4EA75F681F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "直播汪" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA75F691F14AD0A0020F6E7 /* Debug */,
@@ -588,7 +773,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EA75F6B1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		4EA75F6B1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "直播汪Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA75F6C1F14AD0A0020F6E7 /* Debug */,
@@ -597,7 +782,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EA75F6E1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		4EA75F6E1F14AD0A0020F6E7 /* Build configuration list for PBXNativeTarget "直播汪UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA75F6F1F14AD0A0020F6E7 /* Debug */,

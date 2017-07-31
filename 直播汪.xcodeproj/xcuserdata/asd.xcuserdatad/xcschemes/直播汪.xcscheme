@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EA75F3A1F14AD090020F6E7"
-               BuildableName = "test.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "&#x76f4;&#x64ad;&#x6c6a;.app"
+               BlueprintName = "&#x76f4;&#x64ad;&#x6c6a;"
+               ReferencedContainer = "container:&#x76f4;&#x64ad;&#x6c6a;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EA75F531F14AD0A0020F6E7"
-               BuildableName = "testTests.xctest"
-               BlueprintName = "testTests"
-               ReferencedContainer = "container:test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EA75F5E1F14AD0A0020F6E7"
-               BuildableName = "testUITests.xctest"
-               BlueprintName = "testUITests"
-               ReferencedContainer = "container:test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EA75F3A1F14AD090020F6E7"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "&#x76f4;&#x64ad;&#x6c6a;.app"
+            BlueprintName = "&#x76f4;&#x64ad;&#x6c6a;"
+            ReferencedContainer = "container:&#x76f4;&#x64ad;&#x6c6a;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EA75F3A1F14AD090020F6E7"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "&#x76f4;&#x64ad;&#x6c6a;.app"
+            BlueprintName = "&#x76f4;&#x64ad;&#x6c6a;"
+            ReferencedContainer = "container:&#x76f4;&#x64ad;&#x6c6a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EA75F3A1F14AD090020F6E7"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "&#x76f4;&#x64ad;&#x6c6a;.app"
+            BlueprintName = "&#x76f4;&#x64ad;&#x6c6a;"
+            ReferencedContainer = "container:&#x76f4;&#x64ad;&#x6c6a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
